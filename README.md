@@ -15,6 +15,6 @@ Solo asegurate de no subir las siguientes carpetas:
 
 Ni los siguientes archivos:
 
-.gitignore
-bower.json
-gulpfile.js
+- .gitignore
+- bower.json
+- gulpfile.js
