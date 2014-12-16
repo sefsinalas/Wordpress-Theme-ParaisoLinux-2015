@@ -1,0 +1,39 @@
+#header{
+    background-color: $primary-color;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+
+    .title-area{
+        display: inline-block;
+        float: none;
+        padding: 2px 0;
+        @media #{$small-only} { 
+            width: 100%;
+        }
+    }
+
+    .top-bar-section{
+        display: inline;
+    }
+
+    #blog-title, #top-nav{
+        display: inline-block;
+    }
+
+    #blog-title{
+        font-size: 1.9em;
+        // float: left;
+        display: block!important;
+        font-family: 'Josefin Sans', sans-serif;
+        // padding: 2px 0;
+        a{
+            color: #FFF;
+        }
+    }
+
+    #top-nav{
+        // float: right;
+        width: 100%;
+    }
+
+}

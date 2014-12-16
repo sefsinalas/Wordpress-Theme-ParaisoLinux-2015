@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:600);
+@import url(http://fonts.googleapis.com/css?family=Halant);
+
+@import "variables";
+@import "../app/components/foundation/scss/foundation.scss";
+@import "menu";
+@import "general";
+@import "contacto";
+@import "sidebar_left";
+@import "sidebar_right";
+@import "post";
+@import "index";
+
+
+body{
+	background-color: #fff;
+}

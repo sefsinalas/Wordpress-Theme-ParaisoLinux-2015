@@ -1,0 +1,118 @@
+#sidebar-right {
+    @include grid-column(12);
+
+    @media #{$small-only} { 
+        @include grid-column($columns:12, $collapse:true);
+    }
+
+    & .widget{
+        @include grid-row();
+    }
+
+    & .widget-body {
+        padding: 0 1em;
+    }
+
+    & .widget-title {
+        background: $third-color !important;
+        padding: 0.5em 1em;
+        border: 1px solid $border-color;
+        display: block;
+        font-family: 'Josefin Sans', sans-serif;
+        color: $primary-color;
+        text-transform: uppercase;
+        font-weight: 700;
+        background: #02a319;
+        font-size: 1.25rem;
+        margin-bottom: 1.3rem;
+    }
+
+    & .widget-content{
+        margin-bottom: 2em;
+    }
+
+    a{
+        color: $primary-color;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        li{
+            border-left: 3px solid #F1F1F1;
+            padding-left: .6em;
+            margin-bottom: .3em;
+
+            &:hover{
+                border-left: 3px solid $primary-color;
+            }
+        }
+    }
+
+}
+
+#sidebar-right{
+    .suscription-box{
+        .widget-title{
+            margin-bottom: 0!important;
+            border: 1px solid #EE5533!important;
+            background-color: #FAA817!important;
+            color: #333;
+            font-style: italic;
+        }
+        .widget-body{
+            border-right: 1px solid #EE5533;
+            border-left: 1px solid #EE5533;
+            border-bottom: 1px solid #EE5533;
+            margin-top: -1px;
+            padding-top: 10px!important;
+            background-color: #FAA817;
+        }
+    }
+    .info-suscription{
+        ul{
+            li{
+                font-size: 0.9em;
+                margin-bottom: 0.1em;
+                border-left: none!important;
+                position: relative;
+
+                &:before{
+                    content: "*";
+                    position: absolute; 
+                    left: -1.5em;
+                    top: 66%;
+                    margin-top: -1.3em;
+                    background: #87ceeb;
+                    height: 2em;
+                    width: 2em;
+                    line-height: 2em;
+                    border: .3em solid #fff;
+                    text-align: center;
+                    font-weight: bold;
+                    border-radius: 2em;
+                    transition: all .3s ease-out;
+                }
+            }
+        }
+    }
+}
+
+.widget-fixed{
+    position: fixed;
+    top: 10px;
+    width: initial!important;
+    padding-right: 13px;
+}
+
+
+@media only screen and (min-width: 40.063em) {
+
+    #sidebar-right {
+        @include grid-column(4);
+    }
+
+    #sidebar-right .widget .widget-content {
+        @include grid-column(12);
+    }
+}

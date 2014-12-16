@@ -1,0 +1,19 @@
+#contacto {
+    text-align: center;
+}
+#contacto img {
+    border: 1px solid #dddddd;
+    padding: 0.2rem;
+}
+#contacto ul {
+    text-align: right;
+    list-style: none;
+    padding-top: 2rem;
+}
+#contacto ul li span {
+    font-weight: bold;
+    border-bottom: 1px dotted #cccccc;
+}
+#contacto ul li div {
+    display: inline-block;
+}

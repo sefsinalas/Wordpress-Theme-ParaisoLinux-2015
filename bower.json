@@ -1,0 +1,19 @@
+{
+  "name": "paraisolinux 2015",
+  "version": "0.1",
+  "authors": [
+    "sefsinalas <sefsinalas@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://paraisolinux.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.4.7"
+  }
+}
