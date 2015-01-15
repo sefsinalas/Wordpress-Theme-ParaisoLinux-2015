@@ -4,7 +4,7 @@
     padding: 0;
     p{
     	font-size: 0.8rem;
-    	margin-bottom: 0;	
+    	margin-bottom: 0;
     }
 }
 
@@ -15,8 +15,7 @@
 #adsense_bottom {
     text-align: center;
     .bloque-adsense{
-        max-width: 80%;
-        float: left;
+
     }
 }
 
@@ -32,14 +31,10 @@ blockquote {
 }
 
 .social-share-bottom {
-    float: right;
-    width: 20%;
-    div.fb, div.gp{
-        width: 50%;
+    display: block;
+    div.fb, div.gp, div.tw {
+        width: 33%;
         float: left;
-    }
-    div.tw{
-        width: 99%;
     }
 }
 
@@ -117,7 +112,7 @@ blockquote {
 #info-detalle .autor{
     a {
         display: inline-block;
-    }    
+    }
     span{
         font-weight: 700;
     }
@@ -127,7 +122,7 @@ blockquote {
     display: inline-block;
 }
 
-#info-detalle .tags 
+#info-detalle .tags
 {
 	width: 50%;
 	float: right;
@@ -172,7 +167,7 @@ blockquote {
 	}
 
 	.image-related-post{
-		text-align: center;	
+		text-align: center;
 	}
 
 	.title-related-post {
